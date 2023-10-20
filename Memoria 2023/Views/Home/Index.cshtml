@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "MEMORIA 2023";
+}
+
+<h4 class="text-center ">FALTA</h4>
+<div id="contador" class="d-flex flex-wrap justify-content-center mb-5 pb-5 pe-1 ps-1"></div>
+
+
+
+
+
+<script>
+
+    const fechaObjetivo = new Date('2024-05-01T00:00:00').getTime();
+
+    function actualizarContador() {
+        const ahora = new Date().getTime();
+        const tiempoRestante = fechaObjetivo - ahora;
+
+        const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+
+        document.getElementById('contador').innerHTML = `
+            <div class="d-flex justify-content-center flex-row">
+                <div class=" text-center d-flex justify-content-center flex-column">
+                    <h1 class="rounded bg-black text-white p-3 m-3">${dias}</h1>
+                    <p >DÍAS</p>
+                </div>
+                     <div class="text-center d-flex justify-content-center flex-column">
+                        <h1 class="rounded bg-black text-white p-3 m-3">${horas}</h1>
+                        <p >HORAS</p>
+                    </div>
+                     <div class="text-center d-flex justify-content-center flex-column">
+                        <h1 class="rounded bg-black text-white p-3 m-3">${minutos}</h1>
+                        <p >MINUTOS</p>
+                     </div>
+                          <div class="text-center d-flex justify-content-center flex-column">
+                            <h1 class="rounded bg-black text-white p-3 m-3">${segundos}</h1>
+                            <p >SEGUNDOS</p>
+                         </div>
+           </div>
+
+
+          `;
+
+    }
+
+    actualizarContador();
+    const intervalo = setInterval(actualizarContador, 1000); 
+</script>

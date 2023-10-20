@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background: url("../img/fondo-memoria.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: #282122 !important;
+    margin-bottom: 60px;
+}
+
+.logo {
+    background: url("../img/tribunal-de-cuentas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 107px;
+}
+
+.dark-mode {
+    background: url("../img/fondo-memoria-dark.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dcdcdc !important;
+    margin-bottom: 60px;
+}
+
+    .dark-mode .logo {
+        background: url("../img/tribunal-de-cuentas-claro.png") !important;
+        background-repeat: no-repeat;
+        width: 229px;
+        height: 106px;
+    }
+
+    .dark-mode .nav-link {
+        color: #dcdcdc !important;
+    }
+
+a{
+    text-decoration: none;
+}
+
+.text-dark {
+    color: #282122 !important;
+}
+
+.contador {
+    background: rgba( 1, 32, 54, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+}
+
+.bg-black {
+    background: #282122 !important;
+}
+
+.darkmode-btn {
+    background: #282122;
+}

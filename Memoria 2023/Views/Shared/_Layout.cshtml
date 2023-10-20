@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Memoria_2023.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 pt-0 pb-0">
+            <div class="container-fluid pb-2">
+                <a class="logo navbar-brand pt-0" asp-area="" asp-controller="Home" asp-action="Index">
+                   
+                </a>
+
+
+
+
+                <h5 class="mt-1">MEMORIA 2023</h5>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex me-5">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end text-start">
+
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Cuentas">CUENTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="">INSTITUCIONAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Jurisdiccional">FUNCIONES</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="">SISTEMA DE GESTIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="">AUDITORÍA EXTERNA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="">ACTIVIDADES</a>
+                        </li>
+                    </ul>
+                    <button id="darkModeButton" class="darkmode-btn p-2 ms-3 rounded-circle border-0">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0,0,256,256"><g fill="#282122" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#d7d7d7" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M19.47656,3.97852c-0.82766,0.01293 -1.48844,0.69381 -1.47656,1.52148v2c-0.00765,0.54095 0.27656,1.04412 0.74381,1.31683c0.46725,0.27271 1.04514,0.27271 1.51238,0c0.46725,-0.27271 0.75146,-0.77588 0.74381,-1.31683v-2c0.00582,-0.40562 -0.15288,-0.7963 -0.43991,-1.08296c-0.28703,-0.28666 -0.67792,-0.44486 -1.08353,-0.43852zM41.4707,4.98633c-0.38956,0.01135 -0.75941,0.17386 -1.03125,0.45313l-35,35c-0.39185,0.37623 -0.54969,0.9349 -0.41265,1.46055c0.13704,0.52565 0.54754,0.93616 1.07319,1.07319c0.52565,0.13704 1.08432,-0.02081 1.46055,-0.41265l35,-35c0.4429,-0.43135 0.57582,-1.09023 0.33479,-1.65955c-0.24103,-0.56932 -0.80665,-0.93247 -1.42463,-0.91467zM9.58594,8.08594c-0.61064,0.00015 -1.16026,0.37042 -1.38978,0.93629c-0.22952,0.56587 -0.09314,1.21439 0.34486,1.63988l1.41406,1.41406c0.37623,0.39185 0.9349,0.54969 1.46055,0.41265c0.52565,-0.13704 0.93616,-0.54754 1.07319,-1.07319c0.13704,-0.52565 -0.02081,-1.08432 -0.41265,-1.46055l-1.41406,-1.41406c-0.28248,-0.2909 -0.67069,-0.45506 -1.07617,-0.45508zM29.36914,8.08594c-0.38984,0.01187 -0.75973,0.1751 -1.03125,0.45508l-1.41406,1.41406c-0.39185,0.37623 -0.54969,0.9349 -0.41265,1.46055c0.13704,0.52565 0.54754,0.93616 1.07319,1.07319c0.52565,0.13704 1.08432,-0.0208 1.46055,-0.41265l1.41406,-1.41406c0.44438,-0.43113 0.57825,-1.09097 0.33702,-1.66119c-0.24123,-0.57022 -0.808,-0.93366 -1.42686,-0.91498zM19.5,11c-4.687,0 -8.5,3.813 -8.5,8.5c0,2.202 0.84395,4.29467 2.37695,5.88867c0.294,0.307 0.68608,0.46094 1.08008,0.46094c0.374,0 0.74906,-0.13992 1.03906,-0.41992c0.598,-0.574 9.36059,-9.33459 9.93359,-9.93359c0.574,-0.597 0.55698,-1.54614 -0.04102,-2.11914c-1.594,-1.533 -3.68667,-2.37695 -5.88867,-2.37695zM40.47656,14.97852c-0.82766,0.01293 -1.48843,0.69381 -1.47656,1.52148v0.5h-0.5c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h0.5v0.5c-0.00765,0.54095 0.27656,1.04412 0.74381,1.31683c0.46725,0.27271 1.04514,0.27271 1.51238,0c0.46725,-0.27271 0.75146,-0.77588 0.74381,-1.31683v-0.5h0.5c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381h-0.5v-0.5c0.00582,-0.40562 -0.15288,-0.7963 -0.43991,-1.08296c-0.28703,-0.28666 -0.67792,-0.44486 -1.08353,-0.43852zM5.5,18c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h2c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381zM35.08984,23.17969c-0.37936,0.01875 -0.74638,0.17894 -1.01562,0.46094c-0.359,0.376 -0.49919,0.91106 -0.36719,1.41406c0.193,0.744 0.29297,1.48231 0.29297,2.19531c0,4.208 -3.00453,7.8237 -7.14453,8.5957c-0.511,0.096 -0.937,0.44859 -1.125,0.93359c-0.188,0.485 -0.10892,1.03327 0.20508,1.44727c1.819,2.398 4.57545,3.77344 7.56445,3.77344c5.238,0 9.5,-4.262 9.5,-9.5c0,-4.459 -3.1663,-8.36797 -7.5293,-9.29297c-0.126,-0.026 -0.25441,-0.03359 -0.38086,-0.02734zM10.98633,26.4707c-0.38956,0.01135 -0.75941,0.17386 -1.03125,0.45313l-1.41406,1.41406c-0.39186,0.37623 -0.54971,0.9349 -0.41267,1.46056c0.13704,0.52566 0.54754,0.93617 1.0732,1.0732c0.52566,0.13704 1.08434,-0.02081 1.46056,-0.41267l1.41406,-1.41406c0.4429,-0.43135 0.57582,-1.09023 0.33479,-1.65955c-0.24103,-0.56932 -0.80665,-0.93247 -1.42463,-0.91467zM19.47656,36.97852c-0.82766,0.01293 -1.48843,0.69381 -1.47656,1.52148v0.5h-0.5c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h0.5v0.5c-0.00765,0.54095 0.27656,1.04412 0.74381,1.31683c0.46725,0.27271 1.04514,0.27271 1.51238,0c0.46725,-0.27271 0.75146,-0.77588 0.74381,-1.31683v-0.5h0.5c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381h-0.5v-0.5c0.00582,-0.40562 -0.15288,-0.7963 -0.43991,-1.08296c-0.28703,-0.28666 -0.67792,-0.44486 -1.08353,-0.43852z"></path></g></g></svg>
+
+                        
+
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container ">
+        <main role="main" class="pb-3 mb-5">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <footer class="border-top footer mt-5">
+        <div class="container text-center p-3 d-flex justify-content-center align-items-center">
+            &copy; 2023 - Memoria Anual del &nbsp; <strong>Tribunal de Cuentas de Mendoza</strong>
+            <a class="ms-3" href="https://twitter.com/HTC_Mendoza" target="_blank"><img width="25" height="25" src="https://img.icons8.com/ios/50/000000/twitterx--v2.png" alt="twitterx--v2" /></a>
+        </div>
+       
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        // Obtén una referencia al botón de modo oscuro y al body del documento
+        var darkModeButton = document.getElementById("darkModeButton");
+        var body = document.body;
+
+        // Agrega un manejador de eventos al botón
+        darkModeButton.addEventListener("click", function () {
+            // Toggle (agrega o quita) la clase 'dark-mode' del body
+            body.classList.toggle("dark-mode");
+
+        });
+    </script>
+</body>
+</html>

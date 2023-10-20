@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Memoria_2023
+build_property.RootNamespace = Memoria_2023
+build_property.ProjectDir = C:\Users\earagon.TRIBUNAL\Desktop\Memoria 2023\Memoria 2023\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\earagon.TRIBUNAL\Desktop\Memoria 2023\Memoria 2023
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Cuentas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdWVudGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Consultiva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcQ29uc3VsdGl2YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Fizcalizadora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcRml6Y2FsaXphZG9yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Jurisdiccional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcSnVyaXNkaWNjaW9uYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Reglamentaria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcUmVnbGFtZW50YXJpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Organigrama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXE9yZ2FuaWdyYW1hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Quienes-Somos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXFF1aWVuZXMtU29tb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Recursos-Humanos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXFJlY3Vyc29zLUh1bWFub3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-58qnw90p00
