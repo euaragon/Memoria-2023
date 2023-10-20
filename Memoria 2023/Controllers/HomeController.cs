@@ -8,15 +8,23 @@ namespace Memoria_2023.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
+            bool? darkModeEnabled = Request.Cookies["dark-mode"] == "true";
+            ViewBag.DarkModeEnabled = darkModeEnabled;
             return View();
         }
+
+
+
+
 
         public IActionResult Cuentas()
         {
@@ -24,6 +32,56 @@ namespace Memoria_2023.Controllers
         }
 
         public IActionResult Jurisdiccional()
+        {
+            return View();
+        }
+
+        public IActionResult Fiscalizadora()
+        {
+            return View();
+        }
+
+        public IActionResult Reglamentaria()
+        {
+            return View();
+        }
+
+        public IActionResult Consultiva()
+        {
+            return View();
+        }
+
+        public IActionResult Organigrama()
+        {
+            return View();
+        }
+
+        public IActionResult QuienesSomos()
+        {
+            return View();
+        }
+
+        public IActionResult RecursosHumanos()
+        {
+            return View();
+        }
+
+        public IActionResult Procesos()
+        {
+            return View();
+        }
+
+        public IActionResult Calidad()
+        {
+            return View();
+        }
+
+        public IActionResult AuditoriaExterna()
+        {
+            return View();
+        }
+
+        public IActionResult Actividades()
         {
             return View();
         }

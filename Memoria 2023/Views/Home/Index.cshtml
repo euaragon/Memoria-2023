@@ -2,6 +2,13 @@
     ViewData["Title"] = "MEMORIA 2023";
 }
 
+<script>
+    var darkModeEnabled = @(((bool?)ViewBag.DarkModeEnabled) ?? false) ? "true" : "false";
+    if (darkModeEnabled === "true") {
+        document.body.classList.add("dark-mode");
+    }
+</script>
+
 <h4 class="text-center ">FALTA</h4>
 <div id="contador" class="d-flex flex-wrap justify-content-center mb-5 pb-5 pe-1 ps-1"></div>
 

@@ -16,40 +16,56 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\earagon.TRIBUNAL\Desktop\Memoria 2023\Memoria 2023
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Actividades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY3RpdmlkYWRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/AuditoriaExterna.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdWRpdG9yaWFFeHRlcm5hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Calidad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxpZGFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Consultiva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdWx0aXZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Cuentas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdWVudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Consultiva.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcQ29uc3VsdGl2YS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Fizcalizadora.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcRml6Y2FsaXphZG9yYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Jurisdiccional.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcSnVyaXNkaWNjaW9uYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Funciones/Reglamentaria.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uZXNcUmVnbGFtZW50YXJpYS5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Fiscalizadora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXNjYWxpemFkb3JhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Organigrama.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXE9yZ2FuaWdyYW1hLmNzaHRtbA==
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Jurisdiccional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKdXJpc2RpY2Npb25hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Quienes-Somos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXFF1aWVuZXMtU29tb3MuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Organigrama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmdhbmlncmFtYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Institucional/Recursos-Humanos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0aXR1Y2lvbmFsXFJlY3Vyc29zLUh1bWFub3MuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Procesos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9jZXNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/QuienesSomos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWllbmVzU29tb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/RecursosHumanos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWN1cnNvc0h1bWFub3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Home/Reglamentaria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdsYW1lbnRhcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/earagon.TRIBUNAL/Desktop/Memoria 2023/Memoria 2023/Views/Shared/Error.cshtml]
