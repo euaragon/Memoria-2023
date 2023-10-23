@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\angelini.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\angelini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\caputto.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\caputto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\muñoz.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\muñoz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\pares.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\pares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\pettignano.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\pettignano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\autoridades\\tribunal.jpg",
+      "PackagePath": "staticwebassets\\img\\autoridades\\tribunal.jpg"
+    },
+    {
       "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\fondo-memoria-dark.png",
       "PackagePath": "staticwebassets\\img\\fondo-memoria-dark.png"
     },
@@ -27,6 +51,10 @@
     {
       "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\jurisdiccional\\juicio-de-cuentas.png",
       "PackagePath": "staticwebassets\\img\\jurisdiccional\\juicio-de-cuentas.png"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\procesos.png",
+      "PackagePath": "staticwebassets\\img\\procesos.png"
     },
     {
       "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\Memoria 2023\\Memoria 2023\\wwwroot\\img\\tribunal-de-cuentas-claro.png",
